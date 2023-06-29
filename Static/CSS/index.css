@@ -1,0 +1,46 @@
+﻿.bordered {
+    border: 2px solid black;
+    background-color: azure;
+    padding: 10px;
+}
+
+.video-container {
+    display: inline-block;
+}
+.navbar p{
+    color: cadetblue;
+}
+.navbar p:hover{
+    color: red;
+}
+
+footer {
+    bottom: 0;
+    font-size: medium;
+    color: dimgrey;
+}
+
+aside {
+    height: 100%;
+    width: 10%;
+    position: fixed; 
+    z-index: 1; /* Сайд-бар будет поверх остальных элементов */
+    top: 0; /* Сайдбар будет в самой верхней части страницы */
+    left: 0;
+    bottom: 0;
+    background-color: #111; 
+    color: white;
+    overflow-x: hidden; 
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+html,body {
+    height: 100%;
+    padding-left: 6%;
+    margin: 0;
+}
+
+header,footer,aside,body,.bordered,.video-container{
+    font-family: "Helvetica 65 Medium", sans-serif;
+}
