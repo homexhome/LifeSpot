@@ -6,11 +6,14 @@
     <link href="Static/CSS/style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <header>
+    <header id="header-index">
         <h1>LifeSpot - прямые трансляции с улиц</h1>
-        <!--Параграф-->
         <p>Покажем, что происходит прямо сейчас</p>
     </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Поиск видео">
+        <button>Найти</button>
+    </div>
     <aside id="sidebar">
         <div class="navbar">
             <a href="/"><p>Все трансляции</p></a>
@@ -18,8 +21,6 @@
         </div>
     </aside>
     <div class="bordered">
-        <!--Заголовок страницы-->
-
         <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/srlpC5tmhYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <h3 class="video-title">Нью-Йорк, Брайант Парк</h3>

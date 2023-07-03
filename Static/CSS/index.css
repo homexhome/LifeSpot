@@ -1,7 +1,7 @@
 ﻿.bordered {
     border: 2px solid black;
-    background-color: azure;
     padding: 10px;
+    background-color: #85a0cc;
 }
 
 .video-container {
@@ -18,29 +18,72 @@ footer {
     bottom: 0;
     font-size: medium;
     color: dimgrey;
+    line-height: 66%;
+    padding-left: 0.5%;
 }
 
 aside {
     height: 100%;
     width: 10%;
     position: fixed; 
-    z-index: 1; /* Сайд-бар будет поверх остальных элементов */
-    top: 0; /* Сайдбар будет в самой верхней части страницы */
+    z-index: 1; 
+    top: 0;
     left: 0;
     bottom: 0;
     background-color: #111; 
     color: white;
     overflow-x: hidden; 
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 html,body {
     height: 100%;
     padding-left: 6%;
+    padding-right: 3%;
     margin: 0;
 }
 
-header,footer,aside,body,.bordered,.video-container{
+header, footer, aside, body, .bordered, .video-container {
     font-family: "Helvetica 65 Medium", sans-serif;
 }
+header, footer, body{
+    background-color: #6781ab;
+}
+header {
+    color: black;
+    padding-left: 1%;
+    padding-top: 1.2%;
+}
+#header-index {
+    color: black;
+}
+
+.search-bar{
+    padding-left: 1%;
+    padding-bottom: 1.2%;
+}
+    .search-bar input[type="text"] {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+        .search-bar input[type="text"]:focus {
+            border-color: #f44336; 
+            box-shadow: 0 0 5px #f44336; 
+        }
+
+    .search-bar button {
+        padding: 8px 16px;
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+        .search-bar button:hover {
+            background-color: #e53935;
+        }
