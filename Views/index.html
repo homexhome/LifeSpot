@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>LifeSpot</title>
-    <link href="Static/CSS/style.css" rel="stylesheet" type="text/css"/>
+    <link href="Static/CSS/index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <header id="header-index">
         <h1>LifeSpot - прямые трансляции с улиц</h1>
         <p>Покажем, что происходит прямо сейчас</p>
+        <script src="Static/JS/index.js"></script>
     </header>
     <div class="search-bar">
-        <input type="text" placeholder="Поиск видео">
-        <button>Найти</button>
+        <input type="text" oninput="filterStreams()" placeholder="Поиск видео">
+        <script src="Static/JS/streamFilter.js"></script>
     </div>
     <aside id="sidebar">
         <div class="navbar">
