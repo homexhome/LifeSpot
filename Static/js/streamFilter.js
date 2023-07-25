@@ -1,4 +1,4 @@
-function filterStreams() {
+const streamFiler = function filterStreams() {
     const searchBar = document.querySelector('.search-bar');
     const input = searchBar.querySelector('input');
     const videoContainers = document.querySelectorAll('.video-container');

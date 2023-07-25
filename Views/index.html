@@ -10,15 +10,21 @@
         <h1>LifeSpot - прямые трансляции с улиц</h1>
         <p>Покажем, что происходит прямо сейчас</p>
         <script src="Static/JS/index.js"></script>
+        <script>
+            //checkAge();
+            handleSession();
+            sessionLog();
+        </script>
     </header>
     <div class="search-bar">
-        <input type="text" oninput="filterStreams()" placeholder="Поиск видео">
+        <input type="text" oninput="streamFiler()" placeholder="Поиск видео">
         <script src="Static/JS/streamFilter.js"></script>
     </div>
     <aside id="sidebar">
         <div class="navbar">
             <a href="/"><p>Все трансляции</p></a>
-            <a href="/"><p>О проекте</p></a>
+            <a href="/about"><p>О проекте</p></a>
+            <a href="/testing"><p>Тестирование</p></a>
         </div>
     </aside>
     <div class="bordered">
